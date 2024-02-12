@@ -1,0 +1,16 @@
+.logo {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #FFFF;
+    text-decoration: none;
+    transition: color .5s;
+    &:hover {
+        color: #FFAC1C;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .logo {
+        font-size: 3.5rem;
+    }
+}

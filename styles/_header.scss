@@ -1,0 +1,31 @@
+.header {
+    background-color: #0000007A;
+    padding: 44px 359px 45px 372px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+    .header {
+        padding: 44px 118px 45px 132px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 13px 31px 13px 42px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 8px 13px 8px 24px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        padding: 8px 20px;
+    }
+}

@@ -1,0 +1,19 @@
+.arrow::after {
+    content: "";
+    background-image: url("../icons/arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: fixed;
+    bottom: 19px;
+    right: 19px;
+    width: 70px;
+    height: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+    .arrow {
+        bottom: 20px;
+        right: 20px;
+    }
+}

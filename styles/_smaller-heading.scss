@@ -1,0 +1,15 @@
+.smaller-heading {
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .smaller-heading {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .smaller-heading {
+        font-size: $primary-font-size;
+    }
+}

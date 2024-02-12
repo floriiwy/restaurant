@@ -1,0 +1,52 @@
+@mixin paragraph {
+    max-width: 941px;
+    margin: 0 auto;
+    font-size: $primary-font-size;
+}
+
+@mixin heading {
+    &__information {
+        font-size: 2.5rem;
+        margin: 30px 0 31px;
+    }
+}
+
+@mixin button {
+    color: #FFFFFF;
+    display: block;
+    width: 312px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    font-size: 2rem;
+    border: 2px;
+    border-style: solid;
+    text-decoration: none;
+    &:hover {
+        width: 318px;
+        height: 68px;
+        transition: all 0.5s linear;
+    }
+    &--white:hover {
+        background-color: #FFA60D;
+        border: none;
+    }
+    &--black:hover {
+        background-color: #FFA60D;
+        color: #FFFFFF;
+        border: none;
+    }
+}
+
+@mixin menu {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: -15px;
+    color: white;
+    line-height: 58px;
+    font-size: 1.8rem;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.banner {
+    padding-bottom: 185px;
+    padding-top: 218px;
+    &__paragraph {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        &__paragraph {
+            font-size: 1.8rem;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.moodboard {
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .moodboard {
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .moodboard {
+        padding-bottom: 70px;
+    }
+}

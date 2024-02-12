@@ -1,0 +1,19 @@
+.contacts {
+    &__link {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contacts {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contacts {
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.footer-heading {
+    font-size: 6.5rem;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-heading {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-heading {
+        font-size: 4rem;
+    }
+}

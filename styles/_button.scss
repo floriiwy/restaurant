@@ -1,0 +1,21 @@
+    .button {
+        @include button;
+        &--white {
+            margin: 60px auto 0;
+            border-color: white;
+        }
+        &--black {
+            margin: 60px auto 100px;
+            border-color: black;
+            color: black;
+        }
+    }
+    
+    @media screen and (max-width: 1024px) {
+        .button {
+            width: 248px;
+            height: 48px;
+            font-size: 1.7rem;
+            line-height: 48px;
+        }
+    }

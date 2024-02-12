@@ -1,0 +1,40 @@
+.navigation {
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    &__link {
+        color: white;
+        text-decoration: none;
+        &:not(:last-child)::after {
+            display: inline-block;
+            content: "";
+            width: 1.5px;
+            height: 16px;
+            background-color: #FFFFFF;
+            margin: 0 25px;
+            vertical-align: middle;
+        }
+        &:hover {
+            color: #FFAC1C;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navigation {
+        &__link {
+            &:not(:last-child)::after {
+                height: 13px;
+                margin: 0 5px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navigation {
+        right: 13px;
+        top: 19px;
+        bottom: 18px;
+    }
+}

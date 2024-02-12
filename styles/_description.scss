@@ -1,0 +1,30 @@
+.description {
+    background-color: $secondary-color;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__paragraph {
+        @include paragraph;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .description {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        &__paragraph {
+            font-size: 2.2rem;
+            max-width: 602px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        &__paragraph {
+            font-size: 2rem;
+            max-width: 541px;
+        }
+    }
+}
